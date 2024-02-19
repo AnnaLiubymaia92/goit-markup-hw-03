@@ -113,7 +113,7 @@ color: #434455;
     }
 .hero-container{
         padding-top: 188px;
-        padding-bottom: 188;
+        padding-bottom: 188px;
  }
 .main-title {color: #fff;
 font-weight: 700;
@@ -176,11 +176,10 @@ letter-spacing: 0.02em;
 /* =========== /Feature Section styles =========== */
 
 /* =========== Our Team Section styles =========== */
-.team { padding-top: 120px;
-    padding-bottom: 120px;
-}
+
 .team-section {
-    background-color: #F4F4FD;
+    background-color: #F4F4FD;padding-top: 120px;
+    padding-bottom: 120px;
 }
 .team-title{color: #2e2f42;
     width: 162px;
@@ -240,6 +239,7 @@ margin-right: auto;}
     display: flex;
     row-gap: 48px;
     flex-wrap: wrap;
+    column-gap: 24px;
 }
 
 .portfolio-list-title{color: #2e2f42;
@@ -267,11 +267,10 @@ margin-left: 16px;
 
 /* =========== Our Portfolio Section styles =========== */
 /* =========== Footer styles =========== */
-.footer{
+
+.page-footer{color: #f4f4fd;
     padding-top: 100px;
     padding-bottom: 100px;
-}
-.page-footer{color: #f4f4fd;
     background-color: #2E2F42;
 }
 .logo-footer {color: #4d5ae5;
