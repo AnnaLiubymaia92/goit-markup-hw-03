@@ -65,7 +65,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 48px;
+    margin-right: 76px;
+
 }
 .logo-part{
     color: #2e2f42;
@@ -79,7 +80,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px; 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
     display: block;    
 }
 .menu-link:hover,
@@ -109,11 +111,10 @@ color: #434455;
 .hero {
     background-color: #2E2F42;
     }
-    .hero-container{
+.hero-container{
         padding-top: 188px;
         padding-bottom: 188;
-        
-    }
+ }
 .main-title {color: #fff;
 font-weight: 700;
 font-size: 56px;
