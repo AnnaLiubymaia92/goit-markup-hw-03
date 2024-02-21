@@ -1,5 +1,5 @@
 /* =========== Common styles =========== */
-h1, h2, h3 { 
+h1, h2, h3, h4, h5, h6 { 
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -182,17 +182,14 @@ letter-spacing: 0.02em;
     padding-bottom: 120px;
 }
 .team-title{color: #2e2f42;
-    width: 162px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
-margin-top: 120px; 
 margin-bottom: 72px;
-margin-left: auto;
-margin-right: auto;
+
 }
 .team-list { display: flex;
 gap: 24px;
@@ -262,7 +259,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-margin-left: 16px;
+
 }
 
 /* =========== Our Portfolio Section styles =========== */
@@ -291,8 +288,6 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-margin-top: 100px;
-margin-left: 15 px;
 margin-bottom: 172px;
 }
 .page-footer-text{margin-left: 156 px;
